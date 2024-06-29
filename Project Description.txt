@@ -1,0 +1,26 @@
+Project Description: Coffee Shop Application
+
+Overview:
+The Coffee Shop Application is a Java Swing-based program designed to facilitate coffee orders. Users can enter custom coffee names or choose from predefined options to place orders, which are then stored in a PostgreSQL database (JavaDB). The application provides a simple graphical user interface (GUI) for ease of use.
+
+Key Features:
+
+Order Management: Enter and submit coffee orders.
+Database Integration: Store orders in a PostgreSQL database.
+User-Friendly Interface: Java Swing GUI for intuitive interaction.
+Predefined Options: Quick selection of popular coffee types (Espresso, Latte, Cappuccino, Americano, Mocha).
+Usage Instructions:
+
+Database Setup: Ensure PostgreSQL is installed and running.
+
+Create a database named JavaDB.
+Use the provided SQL script to create the orders table.
+Running the Application:
+
+Compile and run CoffeeShopApp.java in your Java development environment.
+Enter a coffee name or select a predefined option.
+Click "Place Order" to submit the order.
+Repository Structure:
+
+src/: Contains Java source code (CoffeeShopApp.java).
+README.md: Detailed instructions and information about the project.
